@@ -833,13 +833,13 @@ background-clip: text;
 
 @keyframes backgroundSlideTwo {
   0% {
-    background-image: url("Img/Why Hyd/Map.png");
+    background-image: url("/Img/Why Hyd/Map.png");
   }
   50% {
-    background-image: url("Img/Why Hyd/Charminar.jpg");
+    background-image: url("/Img/Why Hyd/Charminar.jpg");
   }
   100% {
-    background-image: url("Img/Why Hyd/Map.png");
+    background-image: url("/Img/Why Hyd/Map.png");
   }
 }
 
