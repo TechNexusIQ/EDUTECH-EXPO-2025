@@ -1,0 +1,24 @@
+[
+    {
+      "name": "Dr. Kajal Chhatija",
+      "photo": "../Img/Speakers/KajalChhatija.jpg",
+      "details": "Director<br>United International School<br>Founder & CEO<br>EduDrone - WE CONNECT"
+    },
+    {
+      "name": "Abhishek Bagchi",
+      "photo": "../Img/Speakers/KajalChhatija.jpg",
+      "details": "Director<br>MIT World Peace Schools"
+    },
+    {
+      "name": "Aditi Goradia",
+      "photo": "../Img/Speakers/KajalChhatija.jpg",
+      "details": "Managing Director<br>Billimoria High School"
+    },
+    {
+      "name": "Another Speaker",
+      "photo": "../Img/Speakers/KajalChhatija.jpg",
+      "details": "Principal<br>Some Other School"
+    }
+  
+  ]
+  
