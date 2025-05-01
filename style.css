@@ -1111,7 +1111,7 @@ background: var(--dark);
 
 .carousel-button {
   position: absolute;
-  top: 50%;
+  top: 60%;
   transform: translateY(-50%);
   border: none;
   padding: 12px;
