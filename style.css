@@ -1221,7 +1221,7 @@ background: var(--dark);
 /* whatsapp */
 .whatsapp-float {
   position: fixed;
-  bottom: 20px;
+  bottom: 11px;
   left: 28px;
   z-index: 999;
   border-radius: 50%;
@@ -1243,7 +1243,7 @@ background: var(--dark);
   border: none;
   padding: 10px 10px;
   border-radius: 50%;
-  font-size: 33px;
+  font-size: 29px;
   font-weight: 600;
   cursor: pointer;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
@@ -1266,7 +1266,7 @@ background: var(--dark);
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-15px);
+    transform: translateY(-10px);
   }
 }
 
