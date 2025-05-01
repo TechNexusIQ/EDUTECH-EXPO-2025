@@ -925,6 +925,20 @@ background-clip: text;
   line-height: 4rem;
 }
 
+@media (max-width: 768px){
+  .custom-hyderabad2-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+  }
+  .custom-hyderabad2 h1,
+.custom-hyderabad2 p {
+  width: 100%;
+}
+}
+
 .three-details-section {
   padding: 50px 0px;
   width: 100%;
