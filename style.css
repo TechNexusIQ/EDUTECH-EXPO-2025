@@ -858,7 +858,6 @@ background-clip: text;
   margin-bottom: 1.5rem;
   color: var(--light);
   width: 100%;
-  display: flex;
   justify-content: center;
 }
 
