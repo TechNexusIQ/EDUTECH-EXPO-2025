@@ -17,8 +17,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
   window.addEventListener("scroll", () => {
     let currentSectionId = "";
+
+    const scrollY = window.scrollY;
+    const windowHeight = window.innerHeight;
+    const documentHeight = document.body.offsetHeight;
+
     sections.forEach(section => {
-      if (section && window.scrollY >= section.offsetTop - 100) {
+      if (section && scrollY >= section.offsetTop - 100 && scrollY < section.offsetTop + section.offsetHeight - 100) {
         currentSectionId = section.id;
       }
     });
@@ -29,8 +34,13 @@ document.addEventListener("DOMContentLoaded", () => {
         link.classList.add("nav-link-active");
       }
     });
+
+    if (!currentSectionId) {
+      navLinks.forEach(link => link.classList.remove("nav-link-active"));
+    }
   });
 });
+
 
 
 // tawk-to script
@@ -50,3 +60,5 @@ Tawk_API.onLoad = function () {
   s1.setAttribute("crossorigin", "*");
   s0.parentNode.insertBefore(s1, s0);
 })();
+
+

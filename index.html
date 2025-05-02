@@ -18,7 +18,7 @@
 
 <body>
   <nav class="navbar">
-    <a href="index.html" class="logo">
+    <a href="/" class="logo">
       <img src="./Img/Logo/EDUTECH EXPO 2.png" alt="Logo" />
     </a>
     <button id="hamburger-btn" class="hamburger" aria-label="Toggle Menu">&#9776;</button>
@@ -29,14 +29,17 @@
       </li>
       <li>
         <a href="#speakers">Speakers</a>
-        <button class="nav-links-btn" onclick="window.location.href='./Speaker/'">Find All Speaker</button>
+        <button class="nav-links-btn" onclick="window.location.href='#FIND-ALL-SPEAKER'">Find All Speaker</button>
       </li>
       <li><a href="#Our-Partners">Partners</a> </li>
       <li><a href="#Agenda">2025 Agenda</a></li>
       <li><a href="#Awards">Awards</a></li>
       <li><a href="#Contact-Us">Contact Us</a></li>
       <li><a href="#Register">Register</a></li>
-      <li><a href="./Blogs/">Blogs</a></li>
+      <li>
+        <a href="#Latest-Blogs">Blogs</a>
+        <button class="nav-links-btn" onclick="window.location.href='#All-Blogs'" style="margin-left: .1rem;">All Blogs</button>
+      </li>
     </ul>
   </nav>
 
@@ -149,10 +152,10 @@
   </section>
 
   <section class="speakers-section" id="speakers">
-    <h2>Our Speakers</h2>
+    <h2>Our Speakers:</h2>
     <div class="speakers-grid" id="speakers-grid">
     </div>
-    <a href="/Speaker/" class="btn-primary" style="margin-top: 1.5rem; text-decoration:none;">FIND ALL
+    <a href="#FIND-ALL-SPEAKERS" class="btn-primary" style="margin-top: 1.5rem; text-decoration:none;">FIND ALL
       SPEAKERS</a>
   </section>
 
@@ -230,21 +233,21 @@
         </div>
         <h2>LEARNING & DEVELOPMENT</h2>
         <p>
-          In an era where AI reshapes classrooms and NEP 2025 redefines goals, upskilling is non-negotiable. EDU TECH
+          In an era where AI reshapes classrooms and NEP 2025 redefines goals, upskilling is non-negotiable. EDUTECH
           EXPO 2025 delivers masterclasses on ethical tech integration, policy workshops for NEP compliance, and
           roundtables bridging urban innovation with rural access.
       </div>
     </div>
   </section>
 
-  <section id="latest-blogs">
-    <h2>Latest Blogs</h2>
+  <section id="Latest-Blogs">
+    <h2>Latest Blogs:</h2>
     <div class="blog-list" id="blogContainer">
       <!-- Blog cards will be injected here via JavaScript -->
     </div>
 
     <div style="text-align: center; margin-top:1rem">
-      <a href="/Blogs/" class="btn-primary" style="text-decoration: none;">VIEW ALL BLOGS</a>
+      <a href="#ALL-BLOGS" class="btn-primary" style="text-decoration: none;">VIEW ALL BLOGS</a>
     </div>
 
   </section>
@@ -266,7 +269,7 @@
 
 
   <section class="our-partners" id="Our-Partners">
-    <h2>Our Partners</h2>
+    <h2>Our Partners:</h2>
     <div class="partners-grid" id="partners-grid">
     </div>
   </section>
