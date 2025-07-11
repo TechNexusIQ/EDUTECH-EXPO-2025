@@ -88,7 +88,7 @@ body::-webkit-scrollbar {
 
 .nav-links-btn {
   opacity: 0;
-  transform: translate(-50%, -15px); 
+  transform: translate(-50%, -15px);
   transition: opacity 0.4s ease, transform 0.6s ease;
   font-size: 0.9rem;
   color: var(--secondary);
@@ -99,13 +99,13 @@ body::-webkit-scrollbar {
   border-image: var(--gradient) 1;
   cursor: pointer;
   position: absolute;
-  top: 260%; 
+  top: 260%;
   left: 50%;
   padding: 10px 10px;
   white-space: nowrap;
   font-weight: 400;
   text-align: center;
-  pointer-events: none; 
+  pointer-events: none;
   z-index: 90;
 }
 
@@ -123,11 +123,11 @@ body::-webkit-scrollbar {
   color: var(--primary);
 }
 
-.nav-link-active{
+.nav-link-active {
   background: var(--gradient);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 /* mobile nav */
@@ -232,7 +232,6 @@ background-clip: text;
   }
 }
 
-
 .home-hero {
   width: 100%;
   height: 100vh;
@@ -321,15 +320,15 @@ background-clip: text;
   color: var(--light);
 }
 
-.hero-btn{
-  display:flex; 
-  justify-content:center; 
-  gap:2rem;
+.hero-btn {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
   margin-top: 6rem;
   min-width: max-content;
 }
 
-.hero-btn a:hover{
+.hero-btn a:hover {
   background: var(--dark);
   color: var(--primary);
   border: 1px solid var(--secondary);
@@ -357,6 +356,17 @@ background-clip: text;
   }
 }
 
+@keyframes slideFromRight {
+  0% {
+    opacity: 0;
+    transform: translateX(60px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
 @keyframes slideFromBottom {
   0% {
     opacity: 0;
@@ -365,6 +375,17 @@ background-clip: text;
   100% {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@keyframes zoomIn {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
   }
 }
 
@@ -667,7 +688,7 @@ background-clip: text;
   min-height: 100vh;
 }
 
-.speakers-section h2{
+.speakers-section h2 {
   padding-top: 5rem;
   margin-bottom: 2rem;
   background: var(--gradient);
@@ -694,12 +715,12 @@ background-clip: text;
   position: relative;
   background-color: var(--light);
   width: 250px;
-  border-radius: .4rem;
+  border-radius: 0.4rem;
   overflow: hidden;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
-  border: .4rem solid rgb(255, 255, 255);
+  border: 0.4rem solid rgb(255, 255, 255);
 }
 
 .speaker-card:hover {
@@ -808,8 +829,8 @@ background-clip: text;
   background-repeat: no-repeat;
   z-index: 0;
   opacity: 0;
-  animation-duration: 10s; 
-  animation-iteration-count: infinite; 
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
 
@@ -824,13 +845,23 @@ background-clip: text;
 }
 
 @keyframes fadeInOut1 {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0; }
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
 }
 
 @keyframes fadeInOut2 {
-  0%, 100% { opacity: 0; }
-  50% { opacity: 1; }
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
 }
 
 .custom-hyderabad-overlay {
@@ -857,7 +888,7 @@ background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  margin-left: .5rem;
+  margin-left: 0.5rem;
 }
 
 .custom-hyderabad-text {
@@ -887,7 +918,6 @@ background-clip: text;
   background-color: #c94f4f;
 }
 
-
 .custom-hyderabad2 {
   padding: 3rem;
   background: var(--secondary);
@@ -916,18 +946,17 @@ background-clip: text;
   line-height: 4rem;
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
   .custom-hyderabad2-text {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
-    
   }
   .custom-hyderabad2 h1,
-.custom-hyderabad2 p {
-  width: 100%;
-}
+  .custom-hyderabad2 p {
+    width: 100%;
+  }
 }
 
 .three-details-section {
@@ -947,10 +976,10 @@ background-clip: text;
 }
 
 .three-details-card {
-  flex: 1 ;
+  flex: 1;
   background: var(--light);
   padding: 2rem 1.5rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
 }
 
 .three-details-icon {
@@ -975,15 +1004,14 @@ background-clip: text;
   font-weight: 500;
 }
 
-@media (max-width: 768px){
-  .three-details-container{
+@media (max-width: 768px) {
+  .three-details-container {
     flex-direction: column;
   }
-  .three-details-card{
+  .three-details-card {
     width: 100%;
   }
 }
-
 
 /* img carousel */
 .carousel-container {
@@ -1127,7 +1155,6 @@ background-clip: text;
   transform: scale(1.05);
 }
 
-
 /* whatsapp */
 .whatsapp-float {
   position: fixed;
@@ -1159,8 +1186,10 @@ background-clip: text;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   border: 1px solid white;
   z-index: 1000;
-  animation: floatUpDown 3.2s ease-in-out infinite, pulseGlow 2.5s ease-in-out infinite;
-  transition: transform 0.3s ease, background 0.5s ease, color 0.5s ease, border 0.5s ease;
+  animation: floatUpDown 3.2s ease-in-out infinite,
+    pulseGlow 2.5s ease-in-out infinite;
+  transition: transform 0.3s ease, background 0.5s ease, color 0.5s ease,
+    border 0.5s ease;
 }
 
 .chat-toggle-btn:hover {
@@ -1172,7 +1201,8 @@ background-clip: text;
 
 /* Floating animation */
 @keyframes floatUpDown {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0);
   }
   50% {
@@ -1182,7 +1212,8 @@ background-clip: text;
 
 /* Pulse glow animation */
 @keyframes pulseGlow {
-  0%, 100% {
+  0%,
+  100% {
     box-shadow: 0 0 10px rgb(255, 0, 132, 0.5), 0 0 20px rgb(255, 0, 132, 0.4);
   }
   50% {
@@ -1219,7 +1250,6 @@ background-clip: text;
   color: var(--primary);
 }
 
-
 /* footer */
 .site-footer {
   background-color: var(--secondary);
@@ -1237,23 +1267,23 @@ background-clip: text;
   border-bottom: 1px solid rgba(255, 255, 255, 0.078);
 }
 
-.footer-info img{
-  width: 90%; 
-  height:auto; 
+.footer-info img {
+  width: 90%;
+  height: auto;
   margin: 0 auto;
 }
 
 .footer-info h4 {
   margin-top: 1rem;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   color: white;
   font-size: 1.1rem;
 }
 
-.footer-info p{
+.footer-info p {
   margin-bottom: 0.5rem;
   font-weight: 500;
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 .footer-info,
@@ -1275,7 +1305,7 @@ background-clip: text;
   gap: 1rem;
 }
 
-.footer-contact h4{
+.footer-contact h4 {
   color: white;
   font-size: 1.1rem;
 }
@@ -1285,11 +1315,10 @@ background-clip: text;
   color: var(--primary);
 }
 
-
 .footer-contact-deatils p {
   margin-bottom: 0.5rem;
   font-weight: 600;
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 .footer-bottom {
@@ -1300,11 +1329,78 @@ background-clip: text;
   font-weight: 500;
 }
 
-@media (max-width: 900px){
-  .footer-container{
+@media (max-width: 900px) {
+  .footer-container {
     flex-direction: column;
     gap: 30px;
   }
 }
 
+.awards {
+  min-height: 100vh;
+  background-color: var(--secondary);
+  max-width: 100vw;
+  border-bottom: 2px solid #d825812f;
+}
 
+.award-batch {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.award_heading {
+  margin-top: 7rem;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  opacity: 0;
+  animation: slideFromTop 1s ease-out forwards;
+  color: var(--primary);
+}
+
+.award-img {
+  width: 40%;
+  height: auto;
+  display: block;
+  animation: zoomIn 1s ease-out forwards;
+}
+
+.venue-details {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  opacity: 0;
+  animation: slideFromBottom 1s ease-out forwards;
+  color: var(--light);
+}
+
+.nominate-buttons {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.left-nominate,.right-nominate{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-nominate p,.right-nominate p{
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--light);
+}
+
+.left-nominate{
+  animation: slideFromLeft 1s ease-out forwards;
+}
+.right-nominate{
+  animation: slideFromRight 1s ease-out forwards;
+}
