@@ -1339,8 +1339,13 @@ body::-webkit-scrollbar {
 .awards {
   min-height: 100vh;
   background-color: var(--secondary);
-  max-width: 100vw;
+  width: 100vw;
   border-bottom: 2px solid #d825812f;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 2rem;
 }
 
 .award-batch {
@@ -1348,10 +1353,11 @@ body::-webkit-scrollbar {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 90%;
+  margin-top: 7rem;
 }
 
 .award_heading {
-  margin-top: 7rem;
   font-size: 3rem;
   font-weight: 700;
   margin-bottom: 1rem;
@@ -1379,8 +1385,10 @@ body::-webkit-scrollbar {
 .nominate-buttons {
   margin-top: 1rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   width: 50%;
+  align-items: center;
+  gap: 2rem;
 }
 
 .left-nominate,.right-nominate{
@@ -1396,6 +1404,7 @@ body::-webkit-scrollbar {
   font-size: 1rem;
   font-weight: 500;
   color: var(--light);
+  min-width: max-content;
 }
 
 .left-nominate{
@@ -1403,4 +1412,13 @@ body::-webkit-scrollbar {
 }
 .right-nominate{
   animation: slideFromRight 1s ease-out forwards;
+}
+
+@media (max-width: 768px) {
+  .nominate-buttons{
+    flex-direction: column;
+  }
+  .award-batch{
+    gap: 3rem;
+  }
 }
