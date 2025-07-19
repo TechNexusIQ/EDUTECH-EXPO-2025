@@ -1,24 +1,264 @@
 [
     {
-      "name": "Dr. Kajal Chhatija",
-      "photo": "../Img/Speakers/KajalChhatija.jpg",
-      "details": "Director<br>United International School<br>Founder & CEO<br>EduDrone - WE CONNECT"
-    },
-    {
-      "name": "Abhishek Bagchi",
-      "photo": "../Img/Speakers/KajalChhatija.jpg",
-      "details": "Director<br>MIT World Peace Schools"
-    },
-    {
-      "name": "Aditi Goradia",
-      "photo": "../Img/Speakers/KajalChhatija.jpg",
-      "details": "Managing Director<br>Billimoria High School"
-    },
-    {
-      "name": "Another Speaker",
-      "photo": "../Img/Speakers/KajalChhatija.jpg",
-      "details": "Principal<br>Some Other School"
-    }
+    "name": "Dr Parma Nand",
+    "photo": "../Img/Speakers/Dr Parma Nand.jpeg",
+    "details": "Pro Vice Chancellor<br>Sharda University"
+  },
+  {
+    "name": "Prof. Aldas Janaiah",
+    "photo": "../Img/Speakers/Prof Aldas Janaiah.jpeg",
+    "details": "Vice Chancellor<br>Professor Jayashankar Telangana Agricultural University"
+  },
+  {
+    "name": "Dr Srilatha Chepure",
+    "photo": "../Img/Speakers/Dr Srilatha Chepure.jpeg",
+    "details": "Vice - Chancellor<br>Aurora University <br>Hyderabad"
+  },
+  {
+    "name": "Parveen Rao Velchala",
+    "photo": "../Img/Speakers/Parveen Rao Velchala.jpeg",
+    "details": "Vice Chancellor<br>Kaveri University<br>Siddipet"
+  },
+  {
+    "name": "G.N. Srinivas",
+    "photo": "../Img/Speakers/G.N. Srinivas.jpeg",
+    "details": "Vice Chancellor<br>Palamuru University<br>Mahbubnagar"
+  },
+  {
+    "name": "Archana Mantri",
+    "photo": "../Img/Speakers/Archana Mantri.jpeg",
+    "details": "Vice Chancellor<br>Anurag University"
+  },
+  {
+    "name": "Dr. Balakrishna Shetty",
+    "photo": "../Img/Speakers/Dr. Balakrishna Shetty.jpeg",
+    "details": "Vice Chancellor<br>Malla Reddy VV<br>Hyderabad"
+  },
+  {
+    "name": "Dr. Milind Pande",
+    "photo": "../Img/Speakers/Dr. Milind Pande.jpeg",
+    "details": "Pro-Vice Chancellor<br>MITWPU<br>Pune"
+  },
+  {
+    "name": "Prof. Khaja Althaf Hussain",
+    "photo": "../Img/Speakers/Prof. Khaja Althaf Hussain.jpeg",
+    "details": "Vice-Chancellor<br>Mahatma Gandhi University<br>Nalgonda"
+  },
+  {
+    "name": "Sanjay Thakur",
+    "photo": "../Img/Speakers/Sanjay Thakur.jpeg",
+    "details": "Principal<br>Institute of Hotel Management<br>Hyderabad"
+  },
+  {
+    "name": "Dr. S Sudhakara Reddy",
+    "photo": "../Img/Speakers/Dr. S Sudhakara Reddy.jpeg",
+    "details": "Principal<br>AAR Mahaveer Engineering College"
+  },
+  {
+    "name": "Dr. J Praveen",
+    "photo": "../Img/Speakers/Dr. J Praveen.jpeg",
+    "details": "Principal<br>Gokaraju Rangaraju Institute of Engineering and Technology<br>Hyderabad"
+  },
+  {
+    "name": "Prof. G. Chandra Mohan Reddy",
+    "photo": "../Img/Speakers/Prof. G. Chandra Mohan Reddy.jpeg",
+    "details": "Principal<br>The Mahatma Gandhi Institute of Technology<br>Hyderabad"
+  },
+  {
+    "name": "M R S Suryanarayana Reddy",
+    "photo": "../Img/Speakers/M R S Suryanarayana Reddy.jpeg",
+    "details": "Director Admissions<br>Vishwa Vishwani Institutions<br>Hyderabad"
+  },
+  {
+    "name": "Dr. Divya Nalla",
+    "photo": "../Img/Speakers/Dr. Divya Nalla.jpeg",
+    "details": "Director<br>Nalla Malla Reddy Engineering College"
+  },
+  {
+    "name": "Prof. Basuthkar Jagadeeshwar Rao",
+    "photo": "../Img/Speakers/Professor Basuthkar Jagadeeshwar Rao.jpeg",
+    "details": "Vice Chancellor<br>University of Hyderabad"
+  },
+  {
+    "name": "Dr. Thomas George K",
+    "photo": "../Img/Speakers/Dr Thomas George K.jpeg",
+    "details": "Founder Chairman and Director<br>Lead College of Management<br>Kerala"
+  },
+  {
+    "name": "Dr. Srinivasulu Thonukunuri",
+    "photo": "../Img/Speakers/Dr. Srinivasulu Thonukunuri.jpeg",
+    "details": "Professor and Dean<br>Vignan's Institute of Management & Technology for Women<br>Hyderabad"
+  },
+  {
+    "name": "Dr. V S Giridhar Akula",
+    "photo": "../Img/Speakers/Dr. V S Giridhar Akula.jpeg",
+    "details": "Principal<br>Sphoorthy Engineering Collage<br>Hyderabad"
+  },
+  {
+    "name": "Dr. H.S Saini",
+    "photo": "../Img/Speakers/Dr. H.S Saini.jpeg",
+    "details": "Vice Chancellor<br>Guru Nanak University<br>Hyderabad"
+  },
+  {
+    "name": "Prof. Dr. M Subburaj",
+    "photo": "../Img/Speakers/Prof Dr M Subburaj.jpeg",
+    "details": "Principal<br>Shadan Women's College of Engineering and Technology<br>Hyderabad"
+  },
+  {
+    "name": "Dr. Sandip Bhattacharya",
+    "photo": "../Img/Speakers/Dr. Sandip Bhattacharya.jpeg",
+    "details": "SR University<br>Associate Dean"
+  },
+  {
+    "name": "Dr. Syed Musthak Ahamed",
+    "photo": "../Img/Speakers/Dr.Syed Musthak Ahamed.jpeg",
+    "details": "Principal<br>Vaagdevi Engg. College<br>Warangal"
+  },
+  {
+    "name": "Mr. Abhay G Chebbi",
+    "photo": "../Img/Speakers/Mr. Abhay G Chebbi.jpeg",
+    "details": "Pro-Chancellor<br>Alliance University"
+  },
+  {
+    "name": "Dr. Rakesh Voggu",
+    "photo": "../Img/Speakers/Dr. Rakesh Voggu.jpeg",
+    "details": "Vice Chancellor<br>Rudrama University<br>Hyderabad"
+  },
+  {
+    "name": "Vidya Niranjan",
+    "photo": "../Img/Speakers/Vidya Niranjan.jpeg",
+    "details": "Pro Vice Chancellor<br>MIT Vishwaprayag University<br>Bengaluru"
+  },
+  {
+    "name": "Dr. Ravi Thangam",
+    "photo": "../Img/Speakers/Dr. Ravi Thangam.jpeg",
+    "details": "Pro Vice Chancellor<br>(Strategy & Partnerships)<br>Aditya University<br>Andra Pradesh"
+  },
+  {
+    "name": "Dr. Jaywant Shelar",
+    "photo": "../Img/Speakers/Dr. Jaywant Shelar.jpeg",
+    "details": "Vice Chancellor<br>ITM Skills University<br>Navi Mumbai"
+  },
+  {
+    "name": "Prof. Dr. B. Sendilkumar",
+    "photo": "../Img/Speakers/Prof. Dr. B. Sendilkumar.jpeg",
+    "details": "Dean and Director<br>Health Sciences<br>Vinayaka Missions Research Foundation<br>DU, Salem"
+  },
+  {
+    "name": "Dr. T. Lalitha Kumari",
+    "photo": "../Img/Speakers/Dr. T. Lalitha Kumari.jpeg",
+    "details": "Principal & Director (Academics)<br>Sister Nivedita School<br>Ameerpet, Hyderabad"
+  },
+  {
+    "name": "Dr. B. Ebenezar",
+    "photo": "../Img/Speakers/Dr. B. Ebenezar.jpeg",
+    "details": "Sr. Principal & Head<br>SVKM School<br>Hyderabad <br>Vice Chairperson<br>Hyderabad Sahodaya Schools Complex <br>Educational Thought Leader<br>Academician and Consultant Psychologist"
+  },
+  {
+    "name": "Kuldip Sarma",
+    "photo": "../Img/Speakers/Kuldip Sarma.jpeg",
+    "details": "Co-Founder and Pro Chancellor<br>Medhavi Skill University<br>Sikkim"
+  },
+  {
+    "name": "Mr. Ameer Khan",
+    "photo": "../Img/Speakers/Mr. Ameer Khan.jpeg",
+    "details": "Principal<br>Abhaya School<br>Hyderabad<br>Chairperson<br>Hyderabad Sahodaya Schools Complex"
+  },
+  {
+    "name": "Ms. Sasmita Mohanty",
+    "photo": "../Img/Speakers/Ms. Sasmita Mohanty.jpeg",
+    "details": "Director-Principal<br>Sanjay Ghodawat International School<br>Kolhapur <br>President<br>Sahodaya Complex Kolhapur"
+  },
+  {
+    "name": "Ms. Seema Devendra Naidu",
+    "photo": "../Img/Speakers/Ms. Seema Devendra Naidu.jpeg",
+    "details": "Director Academic<br>Airsons English School<br>Mumbai"
+  },
+  {
+    "name": "Ms. Shanti Krishnamurthy",
+    "photo": "../Img/Speakers/Ms. Shanti Krishnamurthy.jpeg",
+    "details": "Director- Academics & administration<br>Chinmaya International Residential school<br>Director- Central Chinmaya Mission Trust Education cell"
+  },
+  {
+    "name": "Dr. Sneha Nalla",
+    "photo": "../Img/Speakers/Dr. Sneha Nalla.jpeg",
+    "details": "Director<br>Nalla Malla Reddy Foundation School<br>Hyderabad"
+  },
+  {
+    "name": "Ms. Anjali Razdan",
+    "photo": "../Img/Speakers/Ms. Anjali Razdan.jpeg",
+    "details": "Director-Academics<br>Meluha International School<br>Hyderabad"
+  },
+  {
+    "name": "Mr. Sreekanth Koganti",
+    "photo": "../Img/Speakers/Mr. Sreekanth Koganti.jpeg",
+    "details": "Director<br>NextGen International School<br>Guntur"
+  },
+  {
+    "name": "Mr. Pritam Kumar Aggarwal",
+    "photo": "../Img/Speakers/Mr. Pritam Kumar Aggarwal.jpeg",
+    "details": "Founder<br>Hellokids Preschools & Riverstone Schools<br>Bangalore"
+  },
+  {
+    "name": "Ms. Nallam Veena Mankoti",
+    "photo": "../Img/Speakers/Ms. Nallam Veena Mankoti.jpeg",
+    "details": "Academic Director<br>VIP Group of Institutions<br>Hyderabad"
+  },
+  {
+    "name": "Anita Anil Gupta",
+    "photo": "../Img/Speakers/Anita Anil Gupta.jpeg",
+    "details": "Founder Director<br>Little Genesis Preschool & Daycare"
+  },
+  {
+    "name": "Mr. Mohan Kumar Basnet",
+    "photo": "../Img/Speakers/Mr. Mohan Kumar Basnet.jpeg",
+    "details": "Director Academics<br>Good Shepherd School (OMIF)<br>Secunderabad"
+  },
+  {
+    "name": "Ms. Ashoka Latha Beera",
+    "photo": "../Img/Speakers/Ms. Ashoka Latha Beera.jpeg",
+    "details": "Founder & CEO<br>Noble Palm Skills Academy<br>Hyderabad"
+  },
+  {
+    "name": "Vishal Khurma",
+    "photo": "../Img/Speakers/Vishal Khurma.jpeg",
+    "details": "Chief Executive Officer<br>Woxsen University (Higher Education)"
+  },
+  {
+    "name": "Dr. Chandrashekhar DP",
+    "photo": "../Img/Speakers/Dr. Chandrashekhar DP.jpeg",
+    "details": "CEO<br>JGI Schools<br>Hyderabad"
+  },
+  {
+    "name": "Dr. Vijayalakshmi Kanaka",
+    "photo": "../Img/Speakers/Dr. Vijayalakshmi Kanaka.jpeg",
+    "details": "Founder & Director<br>Kiwiskids Pre-Primary School<br>Teacher Trainer<br>Learning consultant"
+  },
+  {
+    "name": "Dr. Seemaa Negi",
+    "photo": "../Img/Speakers/Dr. Seemaa Negi.jpeg",
+    "details": "Director Principal<br>Sanjeevani World School<br>Mumbai"
+  },
+  {
+    "name": "Pratima Sinha",
+    "photo": "../Img/Speakers/Pratima Sinha.jpeg",
+    "details": "Chief Executive Officer<br>DSR Educational Society"
+  },
+  {
+    "name": "Minnalkodi V",
+    "photo": "../Img/Speakers/Minnalkodi V.jpeg",
+    "details": "Principal<br>Jeeva public school <br>SALEM SAHODAYA SCHOOL COMPLEXES<br>PRESIDENT"
+  },
+  {
+    "name": "Prof. Soumyo Mukherji",
+    "photo": "../Img/Speakers/Prof. Soumyo Mukherji.jpg",
+    "details": "Director<br>BITS Pilani<br>Hyderabad Campus"
+  },
+  {
+    "name": "Dr. R. V. R. Krishna Chalam",
+    "photo": "../Img/Speakers/Dr. R. V. R. Krishna Chalam Vice-Chancellor.jpg",
+    "details": "Vice Chancellor<br>MNR University<br>Telangana (Chairman)"
+  }
   
   ]
   

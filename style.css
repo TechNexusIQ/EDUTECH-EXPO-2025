@@ -707,7 +707,7 @@ body::-webkit-scrollbar {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 30px;
+  gap: 50px;
   margin-bottom: 1.5rem;
 }
 
@@ -737,7 +737,7 @@ body::-webkit-scrollbar {
 .speaker-name {
   padding: 0.5rem;
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: 800;
   color: var(--dark);
   background: #fff;
   transition: opacity 0.3s ease;
@@ -764,8 +764,8 @@ body::-webkit-scrollbar {
   opacity: 0;
   transform: translateY(40px);
   transition: opacity 0.4s ease, transform 0.5s ease;
-  text-align: left;
   border-top: 2px solid rgba(255, 255, 255, 0.598);
+  width: 100%;
 }
 
 .speaker-card:hover .speaker-overlay {
@@ -773,8 +773,12 @@ body::-webkit-scrollbar {
   transform: translateY(0);
 }
 
-.speaker-overlay h3,
-.speaker-overlay p {
+.speaker-hover-overlay{
+  min-width: 100%;
+}
+
+.speaker-hover-overlay h3,
+.speaker-hover-overlay p {
   opacity: 0;
   transform: translateY(10px);
   animation: fadeIn 0.5s forwards;
@@ -791,6 +795,7 @@ body::-webkit-scrollbar {
   margin-bottom: 3px;
   font-family: "Caveat", cursive;
   font-optical-sizing: auto;
+  font-size: 1.4rem;
 }
 
 .speaker-hover-overlay p {
